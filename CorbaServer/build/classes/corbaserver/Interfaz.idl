@@ -1,0 +1,6 @@
+module Oficinapp {
+    interface Interfaz {
+        long pago(in long a,in long b);
+        oneway void shutdown();
+    };
+};
